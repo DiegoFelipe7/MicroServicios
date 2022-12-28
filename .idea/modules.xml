@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MicroServicios.iml" filepath="$PROJECT_DIR$/.idea/MicroServicios.iml" />
       <module fileurl="file://$PROJECT_DIR$/cardService/cardService.iml" filepath="$PROJECT_DIR$/cardService/cardService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/motorcycleService/motorcycleService.iml" filepath="$PROJECT_DIR$/motorcycleService/motorcycleService.iml" />
       <module fileurl="file://$PROJECT_DIR$/usersService/usersService.iml" filepath="$PROJECT_DIR$/usersService/usersService.iml" />
