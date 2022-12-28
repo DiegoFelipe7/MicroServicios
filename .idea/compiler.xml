@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cardService" />
         <module name="motorcycleService" />
+        <module name="cardService" />
+        <module name="eurekaServer" />
         <module name="usersService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cardService" target="17" />
+      <module name="eurekaServer" target="17" />
       <module name="motorcycleService" target="17" />
       <module name="usersService" target="17" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cardService" options="-parameters" />
+      <module name="eurekaServer" options="-parameters" />
       <module name="motorcycleService" options="-parameters" />
       <module name="usersService" options="-parameters" />
     </option>
